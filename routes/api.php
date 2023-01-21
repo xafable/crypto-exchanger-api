@@ -23,6 +23,7 @@ Route::controller(\App\Http\Controllers\ApplicationController::class)
     ->prefix('v1/application')
     ->group(function () {
 
+    Route::get('/load', 'index');
     Route::get('/{id}', 'get');
     Route::post('/create', 'create');
     Route::get('/get/last', 'getFakes');
@@ -43,5 +44,12 @@ Route::controller(\App\Http\Controllers\TicketController::class)
     ->prefix('v1/ticket')
     ->group(function () {
 
-    Route::post('/create', 'create');
+       Route::post('/create', 'create');
 });
+
+Route::controller(\App\Http\Controllers\StatusController::class)
+    ->prefix('v1/statuses')
+    ->group(function () {
+
+        Route::get('/', 'index');
+    });

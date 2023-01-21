@@ -21,9 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3b760627-0f43-4c51-a93d-905fbb01373f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PriceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PriceController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/CoinGecko.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/CoinGecko.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ApplicationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ApplicationController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,6 +188,11 @@
       <workItem from="1672146622827" duration="23938000" />
       <workItem from="1672235991193" duration="41000" />
       <workItem from="1672994626342" duration="1927000" />
+      <workItem from="1673082387474" duration="597000" />
+      <workItem from="1673091810548" duration="1764000" />
+      <workItem from="1673280946521" duration="1839000" />
+      <workItem from="1673448471476" duration="4294000" />
+      <workItem from="1673530612953" duration="135000" />
     </task>
     <servers />
   </component>
@@ -213,10 +216,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="705" y="183" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1672177539889" />
-    <state x="690" y="270" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1672158243884">
+    <state x="690" y="270" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1673452056683">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="690" y="270" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1672158243884" />
+    <state x="690" y="270" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1673452056683" />
     <state x="726" y="375" key="NewPhpClassDialog" timestamp="1671687416555">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>

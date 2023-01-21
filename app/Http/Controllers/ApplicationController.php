@@ -43,7 +43,19 @@ class ApplicationController extends Controller
 
     }
 
+    function index() {
+       // dd(11);
+
+        return response()->json([
+            'success' => true,
+            'data' => ApplicationResource::collection(Application::query()
+                ->orderByDesc()
+                ->paginate(20))
+        ]);
+    }
+
     function get($id) {
+
         return response()->json([
             'success' => true,
             'data' => new ApplicationResource(Application::query()
@@ -53,12 +65,13 @@ class ApplicationController extends Controller
 
     function getFakes(){
 
-        FakeApplication::factory()->count(10)->create();
+        //FakeApplication::factory()->count(1)->create();
 
         return response()->json([
             'success' => true,
             'data' => FakeApplicationResource::collection(FakeApplication::query()
-                ->paginate(10))
+                ->inRandomOrder()
+                ->paginate(100))
         ]);
     }
 }
